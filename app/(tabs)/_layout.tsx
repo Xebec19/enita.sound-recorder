@@ -1,13 +1,30 @@
-import { useColorSchemeContext } from "@/hooks/useColorScheme";
-import { StatusBar } from "expo-status-bar";
+import { Ionicons } from "@expo/vector-icons";
+import { Tabs } from "expo-router";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  const { theme } = useColorSchemeContext();
-
   return (
     <>
-      <StatusBar style={theme === "dark" ? "dark" : "light"} />
-      {children}
+      <Tabs>
+        <Tabs.Screen
+          name="index"
+          options={{
+            title: "Home",
+            tabBarIcon: ({ size, color }) => (
+              <Ionicons name="mic" size={size} color={color} />
+            ),
+          }}
+        />
+
+        <Tabs.Screen
+          name="recordings"
+          options={{
+            title: "Recordings",
+            tabBarIcon: ({ size, color }) => (
+              <Ionicons name="list" size={size} color={color} />
+            ),
+          }}
+        />
+      </Tabs>
     </>
   );
 }
