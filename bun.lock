@@ -9,6 +9,7 @@
         "@react-navigation/elements": "^2.3.8",
         "@react-navigation/native": "^7.1.6",
         "expo": "~53.0.7",
+        "expo-audio": "~0.4.4",
         "expo-blur": "~14.1.4",
         "expo-constants": "~17.1.5",
         "expo-font": "~13.3.1",
@@ -806,6 +807,8 @@
     "expo": ["expo@53.0.7", "", { "dependencies": { "@babel/runtime": "^7.20.0", "@expo/cli": "0.24.11", "@expo/config": "~11.0.8", "@expo/config-plugins": "~10.0.2", "@expo/fingerprint": "0.12.4", "@expo/metro-config": "0.20.13", "@expo/vector-icons": "^14.0.0", "babel-preset-expo": "~13.1.11", "expo-asset": "~11.1.5", "expo-constants": "~17.1.5", "expo-file-system": "~18.1.9", "expo-font": "~13.3.1", "expo-keep-awake": "~14.1.4", "expo-modules-autolinking": "2.1.9", "expo-modules-core": "2.3.12", "react-native-edge-to-edge": "1.6.0", "whatwg-url-without-unicode": "8.0.0-3" }, "peerDependencies": { "@expo/dom-webview": "*", "@expo/metro-runtime": "*", "react": "*", "react-native": "*", "react-native-webview": "*" }, "optionalPeers": ["@expo/dom-webview", "@expo/metro-runtime", "react-native-webview"], "bin": { "expo": "bin/cli", "fingerprint": "bin/fingerprint", "expo-modules-autolinking": "bin/autolinking" } }, "sha512-ghX529ZG/PnDtSQTzcl3qtt6/i9ktW1Ie8BE5u936MWCiPMwydxzZ/bilM3XlckLqKEsGsqmmpA1eVcWxkm1Ow=="],
 
     "expo-asset": ["expo-asset@11.1.5", "", { "dependencies": { "@expo/image-utils": "^0.7.4", "expo-constants": "~17.1.5" }, "peerDependencies": { "expo": "*", "react": "*", "react-native": "*" } }, "sha512-GEQDCqC25uDBoXHEnXeBuwpeXvI+3fRGvtzwwt0ZKKzWaN+TgeF8H7c76p3Zi4DfBMFDcduM0CmOvJX+yCCLUQ=="],
+
+    "expo-audio": ["expo-audio@0.4.4", "", { "peerDependencies": { "expo": "*", "react": "*", "react-native": "*" } }, "sha512-pMWy1K/56kDNbqyHrzG90IuTSY0B1zcyCAvgUpGmWgbZD3yIkEJTt83P8yCOGsYfPpj9IL2WJ6759F+OSeLLyQ=="],
 
     "expo-blur": ["expo-blur@14.1.4", "", { "peerDependencies": { "expo": "*", "react": "*", "react-native": "*" } }, "sha512-55P9tK/RjJZEcu2tU7BqX3wmIOrGMOOkmHztJMMws+ZGHzvtjnPmT7dsQxhOU9vPj77oHnKetYHU2sik3iBcCw=="],
 
