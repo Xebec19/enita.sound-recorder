@@ -4,7 +4,21 @@ import { Tabs } from "expo-router";
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <Tabs>
+      <Tabs
+        screenOptions={{
+          headerShown: true,
+          tabBarStyle: {
+            backgroundColor: "#1a1a1a",
+            borderTopColor: "#333",
+          },
+          tabBarActiveTintColor: "#ff4757",
+          tabBarInactiveTintColor: "#888",
+          headerStyle: {
+            backgroundColor: "#1a1a1a",
+          },
+          headerTintColor: "#fff",
+        }}
+      >
         <Tabs.Screen
           name="index"
           options={{
